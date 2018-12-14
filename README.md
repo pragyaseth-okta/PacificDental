@@ -32,7 +32,7 @@ Go to the file src/api.js and update the base URL
 
 Save changes
 
-Install server dependencies
+Install server dependencies from terminal
 
 > npm i express@4.16.3 cors@2.8.4 @okta/jwt-verifier@0.0.11 axios@0.18.0
 
@@ -42,11 +42,11 @@ Start the server
 
 ## web-app setup
 
-> Install vue-cli
+From another terminal window, install vue-cli
 
-npm install -g vue-cli@2.9.3
+> npm install -g vue-cli@2.9.3
 
-> Install app dependencies
+Install app dependencies
 
 ``` bash
 # install dependencies
