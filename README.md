@@ -14,9 +14,8 @@
 > 5. Set the initiate login uri as http://hostname:port (e.g. http://localhost:8080)
 > 6. Save the settings and assign the app to all users who need access to Password Vault.
 
-Download the zip file and unzip under desired location. Go to the folder 'PacificDental-master'
-
 ## Server App Setup
+Download the zip file and unzip under desired location. Go to the folder 'PacificDental-master'  
 Go to the file src/server.js and update the following values
 
 > const orgURL = 'https://pacificdental.oktapreview.com'  
