@@ -19,10 +19,10 @@ Download the zip file and unzip under desired location. Go to the folder 'Pacifi
 ## Server App Setup
 Go to the file src/server.js and update the following values
 
-> const orgURL = 'https://pacificdental.oktapreview.com'
-> const sswsToken = '00cSwekKpTT0X9lESRSTHSTJgw1ypkCH2tmGxWeXv' (This should an admin API token)
-> const client = '0oaeyy53nggBiZ33a0h7' (client ID of the Password Vault app created in Okta)
-> const host = 'http://localhost' (hostname for server app)
+> const orgURL = 'https://pacificdental.oktapreview.com'  
+> const sswsToken = '00cSwekKpTT0X9lESRSTHSTJgw1ypkCH2tmGxWeXv' (This should an admin API token)  
+> const client = '0oaeyy53nggBiZ33a0h7' (client ID of the Password Vault app created in Okta)  
+> const host = 'http://localhost' (hostname for server app)  
 > const port = '8081' (port for server app)
  
 Save changes
