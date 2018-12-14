@@ -5,7 +5,7 @@ const OktaJwtVerifier = require('@okta/jwt-verifier')
 
 
 const orgURL = 'https://seth.oktapreview.com'
-const sswsToken = '00cSwekKpTT0X9lEOZW7MqARtgw1ypkCH2tmGxWeXv'
+const sswsToken = '00cSwekKpTT0X9SRTaerhRtgw1ypkCH2tmGxWeXv'
 const client = '0oaeyy53nggBiZ33a0h7'
 const host = 'http://localhost'
 const port = '8081'
