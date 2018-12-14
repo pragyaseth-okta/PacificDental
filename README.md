@@ -3,43 +3,43 @@
 > Web app to allow saving app passwords
 
 ## Pre-requisites
-1. NPM
+> NPM
 
 ## Create a single page OIDC app in Okta
 
-1. Go to Admin console, Applications tab and Choose 'Add Applications' button. 
-2. Select 'Create New App' option. Platform should be set to 'Single Page App (SPA)'.
-3. Set the application name as 'Password Vault'
-4. Set the login redirect uri to be the web app's URI (e.g. http://hostname:port/implicit/callback where hostname can be localhost and port can be 8080)
-5. Set the initiate login uri as http://hostname:port (e.g. http://localhost:8080)
-6. Save the settings and assign the app to all users who need access to Password Vault.
+> 1. Go to Admin console, Applications tab and Choose 'Add Applications' button. 
+> 2. Select 'Create New App' option. Platform should be set to 'Single Page App (SPA)'.
+> 3. Set the application name as 'Password Vault'
+> 4. Set the login redirect uri to be the web app's URI (e.g. http://hostname:port/implicit/callback where hostname can be localhost and port can be 8080)
+> 5. Set the initiate login uri as http://hostname:port (e.g. http://localhost:8080)
+> 6. Save the settings and assign the app to all users who need access to Password Vault.
 
-> Download the zip file and unzip under desired location. Go to the folder 'PacificDental-master'
+Download the zip file and unzip under desired location. Go to the folder 'PacificDental-master'
 
 ## Server App Setup
-> Go to the file src/server.js and update the following values
+Go to the file src/server.js and update the following values
 
-const orgURL = 'https://pacificdental.oktapreview.com'
-const sswsToken = '00cSwekKpTT0X9lESRSTHSTJgw1ypkCH2tmGxWeXv' (This should an admin API token)
-const client = '0oaeyy53nggBiZ33a0h7' (client ID of the Password Vault app created in Okta)
-const host = 'http://localhost' (hostname for server app)
-const port = '8081' (port for server app)
+> const orgURL = 'https://pacificdental.oktapreview.com'
+> const sswsToken = '00cSwekKpTT0X9lESRSTHSTJgw1ypkCH2tmGxWeXv' (This should an admin API token)
+> const client = '0oaeyy53nggBiZ33a0h7' (client ID of the Password Vault app created in Okta)
+> const host = 'http://localhost' (hostname for server app)
+> const port = '8081' (port for server app)
  
-> Save changes
+Save changes
 
-> Go to the file src/api.js and update the base URL
+Go to the file src/api.js and update the base URL
 
-baseURL: 'http://localhost:8081/'
+> baseURL: 'http://localhost:8081/'
 
-> Save changes
+Save changes
 
-> Install server dependencies
+Install server dependencies
 
-npm i express@4.16.3 cors@2.8.4 @okta/jwt-verifier@0.0.11 axios@0.18.0
+> npm i express@4.16.3 cors@2.8.4 @okta/jwt-verifier@0.0.11 axios@0.18.0
 
-> Start the server
+Start the server
 
-node ./src/server
+> node ./src/server
 
 ## web-app setup
 
