@@ -1,4 +1,4 @@
-# Pacific Dental Password Vault
+# Password Vault
 
 > Web app to allow saving app passwords
 
