@@ -41,23 +41,26 @@ Start the server
 > node ./src/server
 
 ## web-app setup
+Go to the file src/router/index.js and update the following values
 
-From another terminal window, install vue-cli
+> const client = '0oaeyy53nggBiZ33a0h7'
+> const orgURL = 'https://pacificdental.oktapreview.com'
+> const baseRedirect = 'http://localhost:8080'
 
-> npm install -g vue-cli@2.9.3
+Save changes
 
-Install app dependencies
+Go to the file build/dev-server.js and update the following host value
 
-``` bash
-# install dependencies
-npm install
+> const uri = 'http://localhost:' + port
 
-# serve with hot reload at localhost:8080
-npm run dev
+Save changes
 
-# build for production with minification
-npm run build
+Go to the file config/index.js and update the port value. Save changes.
 
+From another terminal window, install vue-cli, bootstrap and Okta SDK
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# PacificDental
+> npm i bootstrap-vue@2.0.0-rc.7 bootstrap@4.1.0 @okta/okta-vue@1.0.0 vue-cli@2.9.3
+
+Start server
+
+> npm run dev
