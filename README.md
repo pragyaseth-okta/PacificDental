@@ -43,9 +43,9 @@ Start the server
 ## web-app setup
 Go to the file src/router/index.js and update the following values
 
-> const client = '0oaeyy53nggBiZ33a0h7'
-> const orgURL = 'https://pacificdental.oktapreview.com'
-> const baseRedirect = 'http://localhost:8080'
+> const client = '0oaeyy53nggBiZ33a0h7'  
+> const orgURL = 'https://pacificdental.oktapreview.com'  
+> const baseRedirect = 'http://localhost:8080'  
 
 Save changes
 
